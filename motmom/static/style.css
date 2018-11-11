@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #3e4349;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia;
+  color: #373839;
+}
+
+a {
+  color: #1b61d6;
+  text-decoration: none;
+}
+
+input {
+  font-size: 14px;
+  width: 400px;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table th {
+  vertical-align: middle;
+}
+
+.list-group.home_list{
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.user_info{
+  background: #E4F7F1;
+}
+
+
